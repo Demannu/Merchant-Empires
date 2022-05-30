@@ -1,4 +1,4 @@
-
+USE spacegame;
 ALTER TABLE `players` 
 ADD COLUMN `unread_messages` TINYINT(1) NULL DEFAULT '0' AFTER `armor_bonus`;
 

@@ -1,0 +1,16 @@
+services:
+  web:
+    image: registry.demannu.com/demannu/merchant-empires/merchantphp:latest
+    ports:
+      - "42680:80"
+      - "42643:443"
+    environment:
+      - MYSQL_PASSWORD=changeMe
+      - ME_ADMIN_NAME=adminUser
+      - ME_ADMIN_EMAIL=admin@domain.com
+    volumes:
+      - ./www:/var/www/html
+  db:
+    image: registry.demannu.com/demannu/merchant-empires/merchantsql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=changeMe

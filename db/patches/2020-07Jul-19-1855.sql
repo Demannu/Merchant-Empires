@@ -1,3 +1,4 @@
+USE spacegame;
 UPDATE `ships` SET `racks` = '2' WHERE (`record_id` = '1');
 UPDATE `ships` SET `stations` = '2' WHERE (`record_id` = '2');
 UPDATE `ships` SET `racks` = '3', `stations` = '0' WHERE (`record_id` = '3');

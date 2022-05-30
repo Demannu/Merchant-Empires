@@ -42,7 +42,7 @@
 --
 -- Dumping data for table `item_types`
 --
-
+USE spacegame;
 LOCK TABLES `item_types` WRITE;
 /*!40000 ALTER TABLE `item_types` DISABLE KEYS */;
 INSERT INTO `item_types` VALUES

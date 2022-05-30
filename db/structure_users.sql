@@ -40,7 +40,8 @@
 --
 -- Table structure for table `gold_keys`
 --
-
+CREATE DATABASE spacegame_users;
+USE spacegame_users;
 DROP TABLE IF EXISTS `gold_keys`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
